@@ -1,8 +1,8 @@
 // Constants
 import AppRoutes from "./AppRoutes";
 // Components
-import Main from "../Components/Main";
-import StartPage from "../Components/StartPage";
+import Main from "../Routes/Main";
+import StartPage from "../Routes/StartPage";
 
 const RouterMap = [
   {
