@@ -1,0 +1,36 @@
+@import "../../CSS/variables.scss";
+
+.backgroundContainer {
+  @include flexCenter;
+
+  font-family: $font-family;
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color: $black;
+  position: relative;
+}
+
+@mixin containerSizeCss {
+  @include flexCenter;
+
+  width: 98%;
+  height: 95%;
+}
+
+.whiteBoxContainer {
+  @include containerSizeCss;
+
+  opacity: 0.7;
+  background-color: $white;
+  border-radius: 1%;
+}
+
+.mainContainer {
+  @include containerSizeCss;
+
+  position: absolute;
+  flex-direction: column;
+}

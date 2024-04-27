@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+$font-family: "Poppins", sans-serif;
+$white: white;
+$black: black;
+$red: red;
+$yellow: yellow;
+$blue: blue;
+$green: limegreen;
+$orange: orange;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin positionAbsoluteCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
